@@ -12,3 +12,10 @@ list1 = ['b', 'a', 'c', 'd']
 print(list1)
 list1.sort()
 print(list1)
+
+a = 3
+b = 3
+if a < b :
+    print('a меньше b')
+else:
+    print ('a дорівнює b')
