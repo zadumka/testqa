@@ -12,3 +12,13 @@ list1 = ['b', 'a', 'c', 'd']
 print(list1)
 list1.sort()
 print(list1)
+#new task
+f =10
+g = 15
+if f > g :
+    print('f більше g')
+else:
+    if f == g :
+        print('f дорівнює g')
+    else :
+        print('f меньше g')
