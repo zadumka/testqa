@@ -13,7 +13,7 @@ print(list1)
 list1.sort()
 print(list1)
 #new task
-f =10
+f =15
 g = 15
 if f > g :
     print('f більше g')
