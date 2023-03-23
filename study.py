@@ -19,3 +19,15 @@ if a < b :
     print('a меньше b')
 else:
     print ('a дорівнює b')
+
+name = 'Tom'
+height = 2
+weight = 140
+
+bmi = weight/(height **2)
+print ('Індекс маси тіла: '+ str(bmi))
+
+if bmi < 25:
+    print(" У "  + name + " нема зайвої ваги")
+else :
+    print ("У " + name + " є надмірна вага")
