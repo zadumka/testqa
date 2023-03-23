@@ -12,13 +12,22 @@ list1 = ['b', 'a', 'c', 'd']
 print(list1)
 list1.sort()
 print(list1)
-#new task
-f =15
-g = 15
-if f > g :
-    print('f більше g')
+
+a = 3
+b = 3
+if a < b :
+    print('a меньше b')
 else:
-    if f == g :
-        print('f дорівнює g')
-    else :
-        print('f меньше g')
+    print ('a дорівнює b')
+
+name = 'Tom'
+height = 2
+weight = 140
+
+bmi = weight/(height **2)
+print ('Індекс маси тіла: '+ str(bmi))
+
+if bmi < 25:
+    print(" У "  + name + " нема зайвої ваги")
+else :
+    print ("У " + name + " є надмірна вага")
